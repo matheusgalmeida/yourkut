@@ -6,13 +6,20 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #dee6f6;
+    width: 100%;
+    display: flex;
 }
 
 ul {
     list-style: none;
 }
+
+nav{
+    float: left;
+}
+
 .perfil-nav  {
-    background-color: #FFF;
+    background-color: rgb(255, 255, 255);
     width: 15%;
     height: 650px;
     margin-left: 1%;
@@ -120,4 +127,182 @@ ul {
     display: flex;
     align-items: center;
     gap: 3%;
+}
+
+/*MAIN---------------------------------------------------------*/
+
+.perfil-main{
+
+    background-color: #FFF;
+    margin-left: 20px;
+    margin-top: 1%;
+    height: 900px;
+    width: 700px;
+    border-radius: 10px 60px 10px 10px;
+    box-shadow: 3px 1px 6px 0px #bbc5d4;
+    
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.title .title-inicio{
+    color: #00659c;
+    line-height: 40px;
+}
+
+.title .title-perfil{
+    color: #868686;
+}
+
+.title-name-main{
+    color: black;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.https{
+    margin-left: 20px;
+    max-width: 660px;
+    border:solid 1px #86868650;
+    color: #00659c;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.https > button{
+    margin-left: 210px;
+    color: #00659c;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 5px;
+    border:solid 3px #86868688;
+    font-weight: 700;
+    font-size: 10px;
+    background-color: #FFF;
+    
+}
+
+.https .carinha{
+    max-width: 20px;
+}
+
+/* VISUUU */
+.visu{
+    margin-left: 20px;
+    margin-top: 10px;
+    border-bottom: 0.12em solid #eaeff9;
+    display: flex;
+}
+
+.visu > p{
+    margin-right: 20px;
+}
+
+.visu > button{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    background-color: rgb(255, 255, 255);
+    border: solid 3px #3f3f3f88;
+    border-bottom: none;
+    border-right: none;
+     
+}
+
+.visu > button > p{
+ 
+    padding-right: 90px;
+}
+
+.visu > button > span{
+    margin-right: 2px;
+    font-size: 10px;
+    width: 15px;
+    background-color: #3f3f3f1c;
+    border: solid 2px #3f3f3fd2;
+    border-top: none;
+    border-left: none;
+}
+
+.icones{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-bottom: 0.12em solid #eaeff9;
+    display: flex;
+    padding: auto;
+    align-items: center;
+}
+
+.icones > div{
+
+    margin-right: 30px;
+}
+
+.icones >div >div >img{
+    max-height: 17px;
+    max-width: 60px;
+}
+
+.icones .flex{
+    padding-top: 2px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.flex > img {
+    width: 16px;
+}
+
+.bio{
+    width: 100%;
+    height: 100%;
+}
+
+.bio > button{
+    margin-top: 5px;
+    margin-left: 89.8%;
+    color: #00659c;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 5px;
+    border:solid 3px #86868688;
+    font-weight: 700;
+    font-size: 10px;
+    background-color: #FFF;  
+}
+
+.bio .box-texto{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+    height: 70%;
+    background-color: rgba(127, 193, 255, 0.24);
+}
+
+.bio .box-texto > p{
+    margin-left: 50px;
+    color: #62666b;
+
+}
+
+.bio .box-texto >ul{
+    max-width: 500px;
+    margin-left: 20px;
+    width: 70%;
 }
